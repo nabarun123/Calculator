@@ -1,0 +1,42 @@
+.container {
+  max-width: 400px;
+  margin: 10vh auto 0 auto;
+  background-color: beige;
+}
+#display {
+  text-align: right;
+  height: 70px;
+  color: white;
+  background-color: black;
+  line-height: 70px;
+  padding: 16px 18px;
+  font-size: 25px;
+  font-size: 85px;
+}
+.buttons {
+  display: grid;
+  border-left: 1px solid grey;
+  border-bottom: 1px solid grey;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.buttons > div {
+  border-top: 1px solid grey;
+  border-right: 1px solid grey;
+}
+
+.button {
+  line-height: 88px;
+  text-align: center;
+  font-size: 55px;
+  cursor: pointer;
+  background-color: gold;
+}
+#equal {
+  background-color: darkblue;
+  color: white;
+}
+.button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
